@@ -1,0 +1,484 @@
+{
+  "features": [
+    {
+      "id": 1,
+      "name": "项目初始化",
+      "description": "初始化Git仓库并配置基础信息",
+      "status": "completed",
+      "priority": "high",
+      "subfeatures": [
+        {
+          "id": 1.1,
+          "name": "初始化Git仓库",
+          "description": "在项目目录初始化Git仓库",
+          "status": "completed"
+        },
+        {
+          "id": 1.2,
+          "name": "配置Git用户信息",
+          "description": "设置Git用户名和邮箱",
+          "status": "completed"
+        },
+        {
+          "id": 1.3,
+          "name": "创建README.md文件",
+          "description": "创建项目说明文件",
+          "status": "completed"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "前端Vue项目结构",
+      "description": "创建前端Vue项目结构和基础配置",
+      "status": "completed",
+      "priority": "high",
+      "subfeatures": [
+        {
+          "id": 2.1,
+          "name": "创建项目目录结构",
+          "description": "创建src、components、views等目录",
+          "status": "completed"
+        },
+        {
+          "id": 2.2,
+          "name": "配置package.json",
+          "description": "配置前端项目依赖和脚本",
+          "status": "completed"
+        },
+        {
+          "id": 2.3,
+          "name": "配置vite.config.js",
+          "description": "配置Vite构建工具",
+          "status": "completed"
+        },
+        {
+          "id": 2.4,
+          "name": "创建index.html",
+          "description": "创建前端入口HTML文件",
+          "status": "completed"
+        },
+        {
+          "id": 2.5,
+          "name": "创建main.js",
+          "description": "创建Vue应用入口文件",
+          "status": "completed"
+        },
+        {
+          "id": 2.6,
+          "name": "创建App.vue",
+          "description": "创建Vue根组件",
+          "status": "completed"
+        },
+        {
+          "id": 2.7,
+          "name": "配置路由",
+          "description": "创建并配置Vue路由",
+          "status": "completed"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "后端Python项目结构",
+      "description": "创建后端Python项目结构和基础配置",
+      "status": "completed",
+      "priority": "high",
+      "subfeatures": [
+        {
+          "id": 3.1,
+          "name": "创建项目目录结构",
+          "description": "创建backend、app、api、models、services等目录",
+          "status": "completed"
+        },
+        {
+          "id": 3.2,
+          "name": "配置requirements.txt",
+          "description": "配置后端项目依赖",
+          "status": "completed"
+        },
+        {
+          "id": 3.3,
+          "name": "创建app.py",
+          "description": "创建Flask应用入口文件",
+          "status": "completed"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "游戏核心数据模型",
+      "description": "开发游戏核心数据模型和状态管理",
+      "status": "completed",
+      "priority": "medium",
+      "subfeatures": [
+        {
+          "id": 4.1,
+          "name": "前端状态管理",
+          "description": "使用Pinia创建游戏状态管理",
+          "status": "completed"
+        },
+        {
+          "id": 4.2,
+          "name": "后端数据模型",
+          "description": "创建游戏核心数据模型类",
+          "status": "completed"
+        },
+        {
+          "id": 4.3,
+          "name": "玩家数据模型",
+          "description": "定义玩家属性和状态",
+          "status": "completed"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "场景和地图系统",
+      "description": "实现游戏场景和地图系统",
+      "status": "completed",
+      "priority": "medium",
+      "subfeatures": [
+        {
+          "id": 5.1,
+          "name": "创建场景数据",
+          "description": "定义多个游戏场景及其属性",
+          "status": "completed"
+        },
+        {
+          "id": 5.2,
+          "name": "场景切换功能",
+          "description": "实现场景之间的导航",
+          "status": "completed"
+        },
+        {
+          "id": 5.3,
+          "name": "地图组件",
+          "description": "创建地图组件，显示已访问的场景",
+          "status": "completed"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "玩家角色系统",
+      "description": "开发玩家角色系统和交互逻辑",
+      "status": "completed",
+      "priority": "medium",
+      "subfeatures": [
+        {
+          "id": 6.1,
+          "name": "玩家属性显示",
+          "description": "在界面上显示玩家属性",
+          "status": "completed"
+        },
+        {
+          "id": 6.2,
+          "name": "背包系统",
+          "description": "实现背包组件和物品管理",
+          "status": "completed"
+        },
+        {
+          "id": 6.3,
+          "name": "NPC交互",
+          "description": "实现与NPC的对话功能",
+          "status": "completed"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "物品和道具系统",
+      "description": "实现游戏物品和道具系统",
+      "status": "completed",
+      "priority": "medium",
+      "subfeatures": [
+        {
+          "id": 7.1,
+          "name": "物品类型定义",
+          "description": "定义多种物品类型",
+          "status": "completed"
+        },
+        {
+          "id": 7.2,
+          "name": "物品稀有度系统",
+          "description": "实现物品稀有度分级",
+          "status": "completed"
+        },
+        {
+          "id": 7.3,
+          "name": "物品使用功能",
+          "description": "实现物品使用效果",
+          "status": "completed"
+        },
+        {
+          "id": 7.4,
+          "name": "物品工具函数",
+          "description": "创建物品系统相关工具函数",
+          "status": "completed"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "战斗系统",
+      "description": "开发游戏战斗系统",
+      "status": "completed",
+      "priority": "medium",
+      "subfeatures": [
+        {
+          "id": 8.1,
+          "name": "战斗组件",
+          "description": "创建战斗界面组件",
+          "status": "completed"
+        },
+        {
+          "id": 8.2,
+          "name": "回合制战斗逻辑",
+          "description": "实现回合制战斗机制",
+          "status": "completed"
+        },
+        {
+          "id": 8.3,
+          "name": "技能系统",
+          "description": "实现技能释放和效果",
+          "status": "completed"
+        },
+        {
+          "id": 8.4,
+          "name": "敌人AI",
+          "description": "实现敌人攻击逻辑",
+          "status": "completed"
+        },
+        {
+          "id": 8.5,
+          "name": "战斗结果处理",
+          "description": "处理战斗胜利和失败的结果",
+          "status": "completed"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "任务和成就系统",
+      "description": "实现游戏任务和成就系统",
+      "status": "completed",
+      "priority": "low",
+      "subfeatures": [
+        {
+          "id": 9.1,
+          "name": "任务类型定义",
+          "description": "定义多种任务类型",
+          "status": "completed"
+        },
+        {
+          "id": 9.2,
+          "name": "任务状态管理",
+          "description": "实现任务状态流转",
+          "status": "completed"
+        },
+        {
+          "id": 9.3,
+          "name": "任务日志组件",
+          "description": "创建任务日志界面",
+          "status": "completed"
+        },
+        {
+          "id": 9.4,
+          "name": "成就系统",
+          "description": "实现成就解锁和显示",
+          "status": "completed"
+        },
+        {
+          "id": 9.5,
+          "name": "任务和成就工具函数",
+          "description": "创建相关工具函数",
+          "status": "completed"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "前后端集成",
+      "description": "集成前后端并测试完整游戏流程",
+      "status": "completed",
+      "priority": "medium",
+      "subfeatures": [
+        {
+          "id": 10.1,
+          "name": "安装前端依赖",
+          "description": "安装Vue项目依赖",
+          "status": "completed"
+        },
+        {
+          "id": 10.2,
+          "name": "构建前端项目",
+          "description": "构建Vue项目生成静态文件",
+          "status": "completed"
+        },
+        {
+          "id": 10.3,
+          "name": "安装后端依赖",
+          "description": "安装Python项目依赖",
+          "status": "completed"
+        },
+        {
+          "id": 10.4,
+          "name": "启动后端服务器",
+          "description": "启动Flask开发服务器",
+          "status": "completed"
+        },
+        {
+          "id": 10.5,
+          "name": "启动前端开发服务器",
+          "description": "启动Vue开发服务器",
+          "status": "completed"
+        },
+        {
+          "id": 10.6,
+          "name": "测试完整游戏流程",
+          "description": "通过浏览器测试游戏功能",
+          "status": "completed"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "功能验证和测试",
+      "description": "逐个验证功能并解决问题",
+      "status": "completed",
+      "priority": "medium",
+      "subfeatures": [
+        {
+          "id": 11.1,
+          "name": "验证项目初始化功能",
+          "description": "确认Git仓库配置正确",
+          "status": "completed"
+        },
+        {
+          "id": 11.2,
+          "name": "验证前端项目结构",
+          "description": "确认前端目录结构和配置正确",
+          "status": "completed"
+        },
+        {
+          "id": 11.3,
+          "name": "验证后端项目结构",
+          "description": "确认后端目录结构和配置正确",
+          "status": "completed"
+        },
+        {
+          "id": 11.4,
+          "name": "验证游戏核心数据模型",
+          "description": "测试状态管理和数据模型",
+          "status": "completed"
+        },
+        {
+          "id": 11.5,
+          "name": "验证场景和地图系统",
+          "description": "测试场景切换和地图功能",
+          "status": "completed"
+        },
+        {
+          "id": 11.6,
+          "name": "验证玩家角色系统",
+          "description": "测试玩家属性和交互功能",
+          "status": "completed"
+        },
+        {
+          "id": 11.7,
+          "name": "验证物品和道具系统",
+          "description": "测试物品拾取和使用功能",
+          "status": "completed"
+        },
+        {
+          "id": 11.8,
+          "name": "验证战斗系统",
+          "description": "测试战斗机制和技能系统",
+          "status": "completed"
+        },
+        {
+          "id": 11.9,
+          "name": "验证任务和成就系统",
+          "description": "测试任务接受和成就解锁",
+          "status": "completed"
+        },
+        {
+          "id": 11.10,
+          "name": "验证前后端集成",
+          "description": "测试完整游戏流程",
+          "status": "completed"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "name": "代码提交和版本控制",
+      "description": "提交代码并更新功能列表状态",
+      "status": "completed",
+      "priority": "medium",
+      "subfeatures": [
+        {
+          "id": 12.1,
+          "name": "提交初始化代码",
+          "description": "提交项目初始化代码",
+          "status": "completed"
+        },
+        {
+          "id": 12.2,
+          "name": "提交前端项目代码",
+          "description": "提交前端Vue项目代码",
+          "status": "completed"
+        },
+        {
+          "id": 12.3,
+          "name": "提交后端项目代码",
+          "description": "提交后端Python项目代码",
+          "status": "completed"
+        },
+        {
+          "id": 12.4,
+          "name": "提交核心功能代码",
+          "description": "提交游戏核心功能代码",
+          "status": "completed"
+        },
+        {
+          "id": 12.5,
+          "name": "提交场景和地图代码",
+          "description": "提交场景和地图系统代码",
+          "status": "completed"
+        },
+        {
+          "id": 12.6,
+          "name": "提交玩家角色代码",
+          "description": "提交玩家角色系统代码",
+          "status": "completed"
+        },
+        {
+          "id": 12.7,
+          "name": "提交物品系统代码",
+          "description": "提交物品和道具系统代码",
+          "status": "completed"
+        },
+        {
+          "id": 12.8,
+          "name": "提交战斗系统代码",
+          "description": "提交战斗系统代码",
+          "status": "completed"
+        },
+        {
+          "id": 12.9,
+          "name": "提交任务系统代码",
+          "description": "提交任务和成就系统代码",
+          "status": "completed"
+        },
+        {
+          "id": 12.10,
+          "name": "提交集成测试代码",
+          "description": "提交集成和测试相关代码",
+          "status": "completed"
+        }
+      ]
+    }
+  ]
+}
